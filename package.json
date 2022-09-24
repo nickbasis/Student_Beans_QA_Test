@@ -1,0 +1,38 @@
+{
+  "name": "automationtests",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "standard": {
+    "globals": [
+      "it",
+      "jest",
+      "test",
+      "expect",
+      "describe",
+      "beforeEach",
+      "beforeAll",
+      "$",
+      "browser",
+      "click"
+    ]
+  },
+  "devDependencies": {
+    "@wdio/cli": "7.16.16",
+    "@wdio/cucumber-framework": "7.16.14",
+    "@wdio/local-runner": "7.16.16",
+    "@wdio/spec-reporter": "7.16.14",
+    "chai": "4.3.6",
+    "chromedriver": "^105.0.1",
+    "wdio-chromedriver-service": "^7.3.2",
+    "webdriverio": "7.16.16"
+  },
+  "dependencies": {
+    "package.json": "^0.0.0"
+  }
+}
